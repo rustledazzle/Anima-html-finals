@@ -1,0 +1,28 @@
+h1 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 90%;
+color: #000000;
+}
+p{
+Font-family: Arial;
+font-size: 85%;
+margin-left: 25px;
+color: #80ff80;
+}
+nav {
+    display: block;
+  }
+
+legend {
+    background-color: darkgreen;
+    color: yellowgreen;
+    padding: 5px 20px;
+    text-align-last: justify;
+  }
+
+
+
+fieldset {
+    background-color: #008000;
+    padding: 0px 7px;
+  }

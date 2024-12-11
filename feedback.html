@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Feedback Page</title>
+   <link rel="stylesheet" type="text/css" href="sourcecs1.css" >
+<style>
+body{
+  background-color: #0F8E00;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+nav{ 
+		
+	width: 1200px;
+	margin: 0 auto;
+	text-shadow: 8px 8px 8px rgba(0,0,0,0.6);
+				
+}
+
+.topnav {
+  overflow: hidden;
+  	
+}
+
+.topnav a {
+  	float: middle;
+  	color: #80ff80;
+  	text-align: Left;
+  	padding: 5px 20px;
+  	text-decoration: none;
+		font-size: 20px;
+		font-family: Comic sans MS;
+}
+
+.topnav a:hover {
+  color: green;
+}
+
+	
+.topnav a.active {
+  background-color: gray;
+  color: white;
+}
+
+a {
+    background-color: black;
+}
+
+
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+	color:#80ff80;
+}
+table {
+    width: 100%;
+  }
+.button {
+  border: none;
+  color: white;
+  padding: 7px 116px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #80ff80;
+  color: black;
+  border: 2px solid #80ff80;
+}
+
+.button1:hover {
+  background-color: #0F8E00;
+  color: white;
+}
+textarea {
+  width: 45%;
+  background-color: #80ff80;
+}
+label {
+  font-family: 'Times New Roman', Times, serif;
+  color: #80ff80;
+  font-size: 20px;
+}
+input {
+  background-color: #80ff80;
+}
+th, td{
+    color: #80ff80;
+}
+</style>
+</head>
+<body link="#21618C" alink="#2ECC71" vlink="#21618C" >
+ 
+  <div class="topnav">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="personalinfo.html">Personal Info</a>
+      <a href="feedback.html">Contact Info & Feedback</a>          
+      <a href="Anima-projectpage.html">Projects</a>
+      <a href="socialmedia.html">Social Media</a>
+    </nav>
+        </div>
+        <br>
+<form action="feedback.html">
+ <fieldset>
+   
+  <form method="post" action="feedback.html">
+    
+	<div class="form-group"><h2>Feedback Type:</h2></div>      
+  <tr>
+    <td>
+      <div class="form-group">
+        <input type="checkbox" id="comment1" name="comment1" value="Comment">
+        <label for="comment1"> Comment</label>,
+        <input type="checkbox" id="suggestion" name="suggestion" value="Suggestions">
+        <label for="comment1"> Suggestion</label>,
+        <input type="checkbox" id="question" name="question" value="Question">
+        <label for="question"> Question</label><br>
+      </div> 
+    </td> 
+  </tr>
+  <br>
+	<div class="form-group">
+	<textarea id="Comments" name="comments" rows="20" cols="35"></textarea>
+  <table style="width: 20%;">	
+    <img src="feedback2.png" width="45%" height="300" alt="School Supplies Green BG" 
+    style="opacity: 1.0;transition: transform 0.3s ease;">
+  </table>
+	</div>
+  <br>
+  <table>
+    
+    <table>
+      <tr>
+        <td>
+          <div class="form-group">
+            <label class="fullname" for="Name" style="padding-left: 50px;">First Name:</label>
+            <input type="text" name="Name" id="Name" size="35" maxlength="35" />
+            ,<label class="lastname" for="LastName" style="padding-left: 50px;">Last Name:</label>
+            <input type="text" name="lastname" id="LastName" size="35" maxlength="35" />
+          </div>
+        </td>
+
+      </tr> 
+      <br>   
+      <tr>
+        <td>
+          <div class="form-group">
+          <label class="email" for="Email" style="padding-left: 90px;">Email:</label>
+          <input type="text" name="email" id="Email" size="35" maxlength="35" />
+          ,<button class="button button1" style="margin: 0px 148px;">Submit</button>
+          </div>
+        </td>   
+      </tr>
+ 
+    </table>      
+  <p style="text-align: center;">
+    <table style=" width: 75%;">
+      <br>  
+      <tr>
+        <th colspan="2" style="text-align: center; padding-right: 200px; font-size: 20px;">
+          Contact Information    
+          <hr>
+        </th>
+      </tr>
+      <tr>
+        <td>Facebook: Facebook.com/Russell.allen25
+        </td>
+        <td>
+          Gmail: russellallenanima@gmail.com
+        </td>
+      </tr>
+      <tr>
+        <td>Instagram: Instagram.com/rustledzl
+        </td>
+        <td>
+         LinkedIn: Linkedin.com/in/russellallenanima25
+        </td>
+      </tr>
+    </table>
+  </p>
+</fieldset>
+</form>
+</body>
+</html>
